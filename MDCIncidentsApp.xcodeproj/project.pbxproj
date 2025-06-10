@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51507139F0C2EF16FB3E5E96 /* Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14493F78ECD908C13E8B7018 /* Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework */; };
+		6DB0041536412EDE5719CA8F /* Pods_MDCIncidentsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D531186FE326CCD36333F83A /* Pods_MDCIncidentsAppTests.framework */; };
+		97CB4D26F1FE2DD7BD64F6F4 /* Pods_MDCIncidentsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601D9A856C0D55DB26D71297 /* Pods_MDCIncidentsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C0BA4422DF2C4010049EF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0BA4232DF2C3FF0049EF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0BA42A2DF2C3FF0049EF7A;
+			remoteInfo = MDCIncidentsApp;
+		};
+		8C0BA44C2DF2C4010049EF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0BA4232DF2C3FF0049EF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C0BA42A2DF2C3FF0049EF7A;
+			remoteInfo = MDCIncidentsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14493F78ECD908C13E8B7018 /* Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7D7521958E542DF64138AC /* Pods-MDCIncidentsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsAppTests.release.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsAppTests/Pods-MDCIncidentsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C10E6754D373E3D33EDC36A /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsApp-MDCIncidentsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsApp-MDCIncidentsAppUITests/Pods-MDCIncidentsApp-MDCIncidentsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4262F0DBD50F13F0A2FB156C /* Pods-MDCIncidentsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsAppTests/Pods-MDCIncidentsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		601D9A856C0D55DB26D71297 /* Pods_MDCIncidentsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDCIncidentsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1CD114354701E5C8EF991A /* Pods-MDCIncidentsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsApp.debug.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsApp/Pods-MDCIncidentsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0BA42B2DF2C3FF0049EF7A /* MDCIncidentsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDCIncidentsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0BA4412DF2C4010049EF7A /* MDCIncidentsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCIncidentsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0BA44B2DF2C4010049EF7A /* MDCIncidentsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCIncidentsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D531186FE326CCD36333F83A /* Pods_MDCIncidentsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDCIncidentsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9812685E445BEF8822CC59 /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsApp-MDCIncidentsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsApp-MDCIncidentsAppUITests/Pods-MDCIncidentsApp-MDCIncidentsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF58BD69388DA3F7C7BB1C5 /* Pods-MDCIncidentsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDCIncidentsApp.release.xcconfig"; path = "Target Support Files/Pods-MDCIncidentsApp/Pods-MDCIncidentsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8C0BA4A32DF2C6180049EF7A /* Exceptions for "MDCIncidentsApp" folder in "MDCIncidentsApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8C0BA42A2DF2C3FF0049EF7A /* MDCIncidentsApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8C0BA42D2DF2C3FF0049EF7A /* MDCIncidentsApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8C0BA4A32DF2C6180049EF7A /* Exceptions for "MDCIncidentsApp" folder in "MDCIncidentsApp" target */,
+			);
+			path = MDCIncidentsApp;
+			sourceTree = "<group>";
+		};
+		8C0BA4442DF2C4010049EF7A /* MDCIncidentsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MDCIncidentsAppTests;
+			sourceTree = "<group>";
+		};
+		8C0BA44E2DF2C4010049EF7A /* MDCIncidentsAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MDCIncidentsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0BA4282DF2C3FF0049EF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CB4D26F1FE2DD7BD64F6F4 /* Pods_MDCIncidentsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA43E2DF2C4010049EF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB0041536412EDE5719CA8F /* Pods_MDCIncidentsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA4482DF2C4010049EF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51507139F0C2EF16FB3E5E96 /* Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DEAAE6CA2CE6FE0196A2F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E1CD114354701E5C8EF991A /* Pods-MDCIncidentsApp.debug.xcconfig */,
+				FFF58BD69388DA3F7C7BB1C5 /* Pods-MDCIncidentsApp.release.xcconfig */,
+				DA9812685E445BEF8822CC59 /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.debug.xcconfig */,
+				3C10E6754D373E3D33EDC36A /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.release.xcconfig */,
+				4262F0DBD50F13F0A2FB156C /* Pods-MDCIncidentsAppTests.debug.xcconfig */,
+				2C7D7521958E542DF64138AC /* Pods-MDCIncidentsAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C0BA4222DF2C3FF0049EF7A = {
+			isa = PBXGroup;
+			children = (
+				8C0BA42D2DF2C3FF0049EF7A /* MDCIncidentsApp */,
+				8C0BA4442DF2C4010049EF7A /* MDCIncidentsAppTests */,
+				8C0BA44E2DF2C4010049EF7A /* MDCIncidentsAppUITests */,
+				8C0BA42C2DF2C3FF0049EF7A /* Products */,
+				4DEAAE6CA2CE6FE0196A2F2D /* Pods */,
+				D17E6CAFB18CF1040D257A79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0BA42C2DF2C3FF0049EF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0BA42B2DF2C3FF0049EF7A /* MDCIncidentsApp.app */,
+				8C0BA4412DF2C4010049EF7A /* MDCIncidentsAppTests.xctest */,
+				8C0BA44B2DF2C4010049EF7A /* MDCIncidentsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17E6CAFB18CF1040D257A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601D9A856C0D55DB26D71297 /* Pods_MDCIncidentsApp.framework */,
+				14493F78ECD908C13E8B7018 /* Pods_MDCIncidentsApp_MDCIncidentsAppUITests.framework */,
+				D531186FE326CCD36333F83A /* Pods_MDCIncidentsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C0BA42A2DF2C3FF0049EF7A /* MDCIncidentsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0BA4542DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsApp" */;
+			buildPhases = (
+				E2B328581477E805BB6B8CBC /* [CP] Check Pods Manifest.lock */,
+				8C0BA4272DF2C3FF0049EF7A /* Sources */,
+				8C0BA4282DF2C3FF0049EF7A /* Frameworks */,
+				8C0BA4292DF2C3FF0049EF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8C0BA42D2DF2C3FF0049EF7A /* MDCIncidentsApp */,
+			);
+			name = MDCIncidentsApp;
+			productName = MDCIncidentsApp;
+			productReference = 8C0BA42B2DF2C3FF0049EF7A /* MDCIncidentsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C0BA4402DF2C4010049EF7A /* MDCIncidentsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0BA4592DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsAppTests" */;
+			buildPhases = (
+				8DDDBAE11A4E147C9E7C432E /* [CP] Check Pods Manifest.lock */,
+				8C0BA43D2DF2C4010049EF7A /* Sources */,
+				8C0BA43E2DF2C4010049EF7A /* Frameworks */,
+				8C0BA43F2DF2C4010049EF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0BA4432DF2C4010049EF7A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8C0BA4442DF2C4010049EF7A /* MDCIncidentsAppTests */,
+			);
+			name = MDCIncidentsAppTests;
+			productName = MDCIncidentsAppTests;
+			productReference = 8C0BA4412DF2C4010049EF7A /* MDCIncidentsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C0BA44A2DF2C4010049EF7A /* MDCIncidentsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0BA45C2DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsAppUITests" */;
+			buildPhases = (
+				278F77F45C55FD58E0E7FF46 /* [CP] Check Pods Manifest.lock */,
+				8C0BA4472DF2C4010049EF7A /* Sources */,
+				8C0BA4482DF2C4010049EF7A /* Frameworks */,
+				8C0BA4492DF2C4010049EF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0BA44D2DF2C4010049EF7A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8C0BA44E2DF2C4010049EF7A /* MDCIncidentsAppUITests */,
+			);
+			name = MDCIncidentsAppUITests;
+			productName = MDCIncidentsAppUITests;
+			productReference = 8C0BA44B2DF2C4010049EF7A /* MDCIncidentsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0BA4232DF2C3FF0049EF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8C0BA42A2DF2C3FF0049EF7A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8C0BA4402DF2C4010049EF7A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8C0BA42A2DF2C3FF0049EF7A;
+					};
+					8C0BA44A2DF2C4010049EF7A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8C0BA42A2DF2C3FF0049EF7A;
+					};
+				};
+			};
+			buildConfigurationList = 8C0BA4262DF2C3FF0049EF7A /* Build configuration list for PBXProject "MDCIncidentsApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0BA4222DF2C3FF0049EF7A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8C0BA42C2DF2C3FF0049EF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0BA42A2DF2C3FF0049EF7A /* MDCIncidentsApp */,
+				8C0BA4402DF2C4010049EF7A /* MDCIncidentsAppTests */,
+				8C0BA44A2DF2C4010049EF7A /* MDCIncidentsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C0BA4292DF2C3FF0049EF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA43F2DF2C4010049EF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA4492DF2C4010049EF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278F77F45C55FD58E0E7FF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDCIncidentsApp-MDCIncidentsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DDDBAE11A4E147C9E7C432E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDCIncidentsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B328581477E805BB6B8CBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDCIncidentsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0BA4272DF2C3FF0049EF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA43D2DF2C4010049EF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0BA4472DF2C4010049EF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C0BA4432DF2C4010049EF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0BA42A2DF2C3FF0049EF7A /* MDCIncidentsApp */;
+			targetProxy = 8C0BA4422DF2C4010049EF7A /* PBXContainerItemProxy */;
+		};
+		8C0BA44D2DF2C4010049EF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C0BA42A2DF2C3FF0049EF7A /* MDCIncidentsApp */;
+			targetProxy = 8C0BA44C2DF2C4010049EF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C0BA4552DF2C4010049EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1CD114354701E5C8EF991A /* Pods-MDCIncidentsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MDCIncidentsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0BA4562DF2C4010049EF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF58BD69388DA3F7C7BB1C5 /* Pods-MDCIncidentsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MDCIncidentsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0BA4572DF2C4010049EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C0BA4582DF2C4010049EF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0BA45A2DF2C4010049EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4262F0DBD50F13F0A2FB156C /* Pods-MDCIncidentsAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDCIncidentsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDCIncidentsApp";
+			};
+			name = Debug;
+		};
+		8C0BA45B2DF2C4010049EF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7D7521958E542DF64138AC /* Pods-MDCIncidentsAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDCIncidentsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDCIncidentsApp";
+			};
+			name = Release;
+		};
+		8C0BA45D2DF2C4010049EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9812685E445BEF8822CC59 /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDCIncidentsApp;
+			};
+			name = Debug;
+		};
+		8C0BA45E2DF2C4010049EF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C10E6754D373E3D33EDC36A /* Pods-MDCIncidentsApp-MDCIncidentsAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B99VV8U65A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asyrafrozi.com.MDCIncidentsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDCIncidentsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0BA4262DF2C3FF0049EF7A /* Build configuration list for PBXProject "MDCIncidentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0BA4572DF2C4010049EF7A /* Debug */,
+				8C0BA4582DF2C4010049EF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0BA4542DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0BA4552DF2C4010049EF7A /* Debug */,
+				8C0BA4562DF2C4010049EF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0BA4592DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0BA45A2DF2C4010049EF7A /* Debug */,
+				8C0BA45B2DF2C4010049EF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0BA45C2DF2C4010049EF7A /* Build configuration list for PBXNativeTarget "MDCIncidentsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0BA45D2DF2C4010049EF7A /* Debug */,
+				8C0BA45E2DF2C4010049EF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0BA4232DF2C3FF0049EF7A /* Project object */;
+}

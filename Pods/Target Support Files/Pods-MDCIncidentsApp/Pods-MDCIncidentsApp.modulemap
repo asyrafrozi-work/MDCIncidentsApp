@@ -1,0 +1,6 @@
+framework module Pods_MDCIncidentsApp {
+  umbrella header "Pods-MDCIncidentsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
